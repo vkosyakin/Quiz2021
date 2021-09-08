@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AB0770E26E3938B0090B468 /* Screenchot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0770926E3938B0090B468 /* Screenchot01.png */; };
+		2AB0770F26E3938B0090B468 /* Screenchot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0770A26E3938B0090B468 /* Screenchot03.png */; };
+		2AB0771026E3938B0090B468 /* Screenchot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0770B26E3938B0090B468 /* Screenchot02.png */; };
+		2AB0771126E3938B0090B468 /* Screenchot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0770C26E3938B0090B468 /* Screenchot05.png */; };
+		2AB0771226E3938B0090B468 /* Screenchot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0770D26E3938B0090B468 /* Screenchot04.png */; };
 		2ADFB63D26C3B27F00D9330E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB63C26C3B27F00D9330E /* AppDelegate.swift */; };
 		2ADFB63F26C3B27F00D9330E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB63E26C3B27F00D9330E /* SceneDelegate.swift */; };
 		2ADFB64126C3B27F00D9330E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFB64026C3B27F00D9330E /* WelcomeViewController.swift */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AB0770926E3938B0090B468 /* Screenchot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenchot01.png; sourceTree = "<group>"; };
+		2AB0770A26E3938B0090B468 /* Screenchot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenchot03.png; sourceTree = "<group>"; };
+		2AB0770B26E3938B0090B468 /* Screenchot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenchot02.png; sourceTree = "<group>"; };
+		2AB0770C26E3938B0090B468 /* Screenchot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenchot05.png; sourceTree = "<group>"; };
+		2AB0770D26E3938B0090B468 /* Screenchot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenchot04.png; sourceTree = "<group>"; };
 		2ADFB63926C3B27F00D9330E /* Quiz2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADFB63C26C3B27F00D9330E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ADFB63E26C3B27F00D9330E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AB0770826E3938B0090B468 /* Screenchots  */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0770926E3938B0090B468 /* Screenchot01.png */,
+				2AB0770A26E3938B0090B468 /* Screenchot03.png */,
+				2AB0770B26E3938B0090B468 /* Screenchot02.png */,
+				2AB0770C26E3938B0090B468 /* Screenchot05.png */,
+				2AB0770D26E3938B0090B468 /* Screenchot04.png */,
+			);
+			path = "Screenchots ";
+			sourceTree = "<group>";
+		};
 		2ADFB63026C3B27F00D9330E = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +92,7 @@
 			children = (
 				2ADFB65D26C7D8CC00D9330E /* App */,
 				2ADFB65B26C7D7CD00D9330E /* Models */,
+				2AB0770826E3938B0090B468 /* Screenchots  */,
 				2ADFB65C26C7D83D00D9330E /* View */,
 				2ADFB65526C3CE1600D9330E /* View Controllers */,
 			);
@@ -175,7 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADFB64926C3B27F00D9330E /* LaunchScreen.storyboard in Resources */,
+				2AB0770F26E3938B0090B468 /* Screenchot03.png in Resources */,
+				2AB0771126E3938B0090B468 /* Screenchot05.png in Resources */,
 				2ADFB64626C3B27F00D9330E /* Assets.xcassets in Resources */,
+				2AB0771026E3938B0090B468 /* Screenchot02.png in Resources */,
+				2AB0771226E3938B0090B468 /* Screenchot04.png in Resources */,
+				2AB0770E26E3938B0090B468 /* Screenchot01.png in Resources */,
 				2ADFB64426C3B27F00D9330E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

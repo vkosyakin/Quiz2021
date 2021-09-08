@@ -38,7 +38,7 @@ class QuestionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        rangedSlider.maximumValue = 0.99999
+        rangedSlider.maximumValue = 0.9999
         updateUI()
         
     }
